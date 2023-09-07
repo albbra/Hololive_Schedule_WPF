@@ -1,6 +1,6 @@
 # Hololive Schedule Viewer (WPF)
 
-This C# application provides a user-friendly interface for viewing the schedule of streams from popular VTuber agency, Hololive. It dynamically fetches data from the [Hololive Schedule](https://schedule.hololive.tv/lives) webpage and presents it in an organized manner, allowing users to easily browse upcoming streams.
+This C# application provides a user-friendly interface for viewing the schedule of streams from popular VTuber agency: Hololive. It dynamically fetches data from the [Hololive Schedule](https://schedule.hololive.tv/lives) webpage and presents it in an organized manner, allowing users to easily browse upcoming streams.
 
 ## Features:
 
@@ -13,7 +13,7 @@ This C# application provides a user-friendly interface for viewing the schedule 
 ## Usage:
 
 1. **Running the Application**:
-   - Execute the `MainForm.cs` file to launch the application. The schedule will be dynamically loaded upon startup.
+   - Execute the `Hololive_Schedule_WPF.exe` file to launch the application. The schedule will be dynamically loaded upon startup.
 
 2. **Navigating the Schedule**:
    - Use the vertical scrollbar or the mouse wheel to scroll through the list of streams.
