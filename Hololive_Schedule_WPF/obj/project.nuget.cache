@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "v8kpmZQUtRUKrjyZgDGqyR26iWEXhD8QJa7g9X2iuhQP44dYAtSXyJ0vS9vWILFRmEsS9sHwx/A8XSbEjaMdhA==",
+  "success": true,
+  "projectFilePath": "D:\\Albert\\test\\Hololive_Schedule_WPF\\Hololive_Schedule_WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Albbr\\.nuget\\packages\\htmlagilitypack\\1.11.52\\htmlagilitypack.1.11.52.nupkg.sha512"
+  ],
+  "logs": []
+}
