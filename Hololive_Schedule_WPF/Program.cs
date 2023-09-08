@@ -25,17 +25,17 @@ namespace Hololive_Schedule_WPF
             LoadDate();
             listOfStreams = LoadData();
             CreatePictureBoxesandLabels();
-            CreateVScrollBar(10 + (listOfStreams.Count * 111));
+            CreateVScrollBar();
             this.MouseWheel += new MouseEventHandler(MainForm_MouseWheel);
         }
 
-        private void CreateVScrollBar(int max)
+        private void CreateVScrollBar()
         {
             VScrollBar vScrollBar = new VScrollBar();
             vScrollBar.Location = new Point(395, 0);
             vScrollBar.Height = 1000;
             vScrollBar.Width = 10;
-            vScrollBar.Maximum = max;
+            vScrollBar.Maximum = (listOfStreams.Count * 125) - 980;
             vScrollBar.Name = "vScrollBar";
 
             // Add an event handler for scrolling if needed
@@ -69,6 +69,7 @@ namespace Hololive_Schedule_WPF
 
                 Label time = (Label)this.Controls.Find("time" + i, true)[0];
                 time.Location = new Point(240, yOffset + (i * 125) + 60);
+
             }
             
             for (int i = 0; i < a; i++)
@@ -76,6 +77,7 @@ namespace Hololive_Schedule_WPF
                 Label streamdate = (Label)this.Controls.Find("streamdate" + i, true)[0];
                 streamdate.Location = new Point(260, dateyposition[i] +  yOffset - 20);
             }
+
         }
 
         private void MainForm_MouseWheel(object sender, MouseEventArgs e)
@@ -273,6 +275,7 @@ namespace Hololive_Schedule_WPF
                 // Add the labels to the form's controls
                 this.Controls.Add(name);
                 this.Controls.Add(time);
+
             }
         }
 
