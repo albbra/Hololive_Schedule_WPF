@@ -13,7 +13,7 @@ This C# application provides a user-friendly interface for viewing the schedule 
 ## Usage:
 
 1. **Running the Application**:
-   - Execute the `Hololive_Schedule_WPF.exe` file to launch the application. The schedule will be dynamically loaded upon startup.
+   - Download the folder `net6.0-windows` from the dir `Hololive_Schedule_WPF\bin\Debug` then execute the `Hololive_Schedule_WPF.exe` file to launch the application. The schedule will be dynamically loaded upon startup.
 
 2. **Navigating the Schedule**:
    - Use the vertical scrollbar or the mouse wheel to scroll through the list of streams.
